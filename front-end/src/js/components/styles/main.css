@@ -1,0 +1,205 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
+}
+body {
+  font: 14px "Montserrat", sans-serif;
+  color: #333;
+  background: #333;
+}
+
+.ml10{
+	margin-left:10px;
+}
+
+.App-header{
+	background-color: #ee1c24;
+  z-index: 99;
+  padding:15px;
+}
+
+.App-link{
+	color:white;
+	font-size: 15px;
+}
+
+
+.App-footer{
+	background-color: #ee1c24;
+	text-align:center;
+	color:white ;
+	padding:15px;
+}
+
+.app{
+  display: -webkit-flex;
+  display: flex;
+  min-height: 100%;
+}
+
+.sidebar {
+  position: absolute;
+  width: 220px;
+}
+
+.nav-bar-left li a{
+	color:white !important;
+}
+
+.nav-bar-left li a {
+  position: relative;
+  display: block;
+  padding: 15px 15px 15px 50px;
+  font-size: 12px;
+  bbook-bottom: 1px solid #222;
+}
+
+.nav-bar-left li a:before {
+  font: 14px fontawesome;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+}
+
+.red {
+	color:#ee1c24;
+}
+
+.nav-bar-left li a:hover {
+  background: #444;
+}
+
+.nav-bar-left li a:active {
+  box-shadow: inset 5px 0 0 #ffc107, inset 6px 0 0 #222;
+  background: #444;
+}
+
+.content {
+  -webkit-flex: 1;
+  min-height:100vh;
+  flex: 1;
+  padding: 30px;
+  background: #eee;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+}
+
+
+h1 {
+  margin: 25px 0 15px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .content {
+    margin-left: 220px;
+  }
+}
+
+#CustomTable {
+	width: 100%;
+  bbook-collapse: collapse;
+  bbook: 1px solid #ddd;
+}
+
+#CustomTable td,
+#CustomTable th {
+  bbook: 1px solid #ddd;
+  padding: 12px;
+}
+
+#CustomTable tr:hover {
+  background-color: #ddd;
+}
+
+#CustomTable th {
+  padding: 10px;
+  text-align: center;
+  background-color: #ee1c24;
+  color: white;
+}
+
+.opration {
+  text-align: center;
+}
+
+.bookForm{
+	padding:20px;
+	background-color:white;
+	width:500px;
+	margin: auto;
+}
+
+.bookForm *{
+	margin-top:10px;
+	width: 100%;
+}
+
+.bookForm
+
+.bookForm label{
+	font-size: 16px;
+}
+
+.LoginPage{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.LoginPageContainer{
+	padding:40px;
+	width:400px;
+	background-color:white;
+	text-align: center;
+
+}
+
+.LoginPageContainer input{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.LoginPageContainer i {
+	display: block;
+}
+
+.submitButton{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.regisBottom *{
+	margin-left: 4px;
+}
+
+.App-FilterBook{
+  width: 500px;
+  padding: 40px 14px;
+  background-color: white;
+  margin-bottom: 20px;
+}
